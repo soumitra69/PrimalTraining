@@ -1,19 +1,25 @@
 {
+  "homepage": "https://soumitra69.github.io/PrimalTraining",
   "name": "app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "start --port 3000",
     "dev": "vite --port 3000",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.4.9",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.11.0"
+    "react-router-dom": "^7.12.0",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

@@ -1,16 +1,10 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 import "./index.css";
-import App from "./App.jsx";
-import Nav from "./component/Nav.jsx";
-import Hero from "./component/Hero.jsx";
-import Footer from "./component/Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <BrowserRouter basename="/PrimalTraining">
     <App />
-    <Nav />
-    <Hero />
-    <Footer />
-  </StrictMode>
+  </BrowserRouter>,
 );
