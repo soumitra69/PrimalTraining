@@ -1,160 +1,136 @@
-# Primal Training
+# 🏋️ Primal Training
 
-A modern fitness and training web application built with React, designed to help users achieve their fitness goals through structured workout programs and training guidance.
+A modern, performance-driven gym and fitness community website built with React. Primal Training is designed to inspire and connect fitness enthusiasts with a sleek, responsive interface focused on strength, performance, and community.
 
-🔗 **Live Demo**: [https://primaltraining.netlify.app/](https://primaltraining.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://soumitra69.github.io/PrimalTraining)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## 📋 Table of Contents
+## 🌟 Features
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- **Modern UI/UX**: Clean, contemporary design with smooth animations and transitions
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Performance Focused**: Fast loading times and optimized React components
+- **Community Driven**: Built to foster a strong fitness community
+- **Interactive Elements**: Engaging user interface with dynamic content
+- **Accessibility**: Built with web accessibility standards in mind
 
-## ✨ Features
+## 🚀 Demo
 
-- **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
-- **Modern UI/UX** - Clean and intuitive interface for seamless user experience
-- **Workout Programs** - Structured training plans and exercises
-- **Performance Tracking** - Monitor your fitness progress over time
-- **Fast Loading** - Optimized performance for quick page loads
+Visit the live site: [Primal Training](https://soumitra69.github.io/PrimalTraining)
 
-## 🛠 Tech Stack
+View the design: [Figma Design File](https://www.figma.com/site/ujIO78pt1UTD112eN01yKW/Performance-Driven-Gym--Community-)
 
-- **React** - Frontend library for building user interfaces
-- **React Router** - For seamless navigation between pages
-- **CSS3/Styled Components** - Modern styling solutions
-- **Netlify** - Hosting and continuous deployment
+## 🛠️ Built With
 
-## 🚀 Getting Started
+- **React** - Frontend framework
+- **React Router** - Navigation and routing
+- **CSS3** - Styling and animations
+- **JavaScript (ES6+)** - Core functionality
+- **GitHub Pages** - Deployment
 
-### Prerequisites
+## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
-
 - Node.js (v14.0 or higher)
-- npm or yarn package manager
+- npm (v6.0 or higher) or yarn
 
-### Installation
+## 🔧 Installation
 
-1. Clone the repository:
-
+1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/primal-training.git
+git clone https://github.com/soumitra69/PrimalTraining.git
 ```
 
-2. Navigate to the project directory:
-
+2. Navigate to the project directory
 ```bash
-cd primal-training
+cd PrimalTraining
 ```
 
-3. Install dependencies:
-
+3. Install dependencies
 ```bash
 npm install
 # or
 yarn install
 ```
 
-4. Start the development server:
-
+4. Start the development server
 ```bash
 npm start
 # or
 yarn start
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
-## 📜 Available Scripts
+## 📦 Build
 
-In the project directory, you can run:
+To create a production build:
 
-### `npm start`
+```bash
+npm run build
+# or
+yarn build
+```
 
-Runs the app in development mode. The page will reload when you make changes.
+The build folder will contain optimized production-ready files.
 
-### `npm test`
+## 🚀 Deployment
 
-Launches the test runner in interactive watch mode.
+This project is deployed on GitHub Pages. To deploy your own version:
 
-### `npm run build`
+1. Update the `homepage` field in `package.json`:
+```json
+"homepage": "https://yourusername.github.io/your-repo-name"
+```
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time.
+2. Deploy to GitHub Pages:
+```bash
+npm run deploy
+# or
+yarn deploy
+```
 
 ## 📁 Project Structure
 
 ```
-primal-training/
+PrimalTraining/
 ├── public/
 │   ├── index.html
-│   └── ...
+│   └── assets/
 ├── src/
 │   ├── components/
-│   │   └── ...
+│   │   ├── Header/
+│   │   ├── Hero/
+│   │   ├── Programs/
+│   │   ├── Community/
+│   │   └── Footer/
 │   ├── pages/
-│   │   └── ...
 │   ├── styles/
-│   │   └── ...
 │   ├── utils/
-│   │   └── ...
 │   ├── App.js
 │   └── index.js
 ├── package.json
 └── README.md
 ```
 
-## 🌐 Deployment
+## 🎨 Design
 
-This project is deployed on Netlify with continuous deployment enabled.
+The design for this project was created in Figma and focuses on:
+- Clean, modern aesthetic
+- Bold typography for impact
+- High-contrast color scheme
+- Intuitive user flow
+- Mobile-first approach
 
-### Deploy Your Own
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy)
-
-### Manual Deployment
-
-1. Build the project:
-
-```bash
-npm run build
-```
-
-2. Deploy the `build` folder to your preferred hosting service.
-
-### Netlify Configuration
-
-Create a `netlify.toml` file in the root directory:
-
-```toml
-[build]
-  command = "npm run build"
-  publish = "build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-```
+[View Full Design →](https://www.figma.com/site/ujIO78pt1UTD112eN01yKW/Performance-Driven-Gym--Community-)
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! Here's how you can help:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
@@ -165,16 +141,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-Your Name - Soumitra Samanta
+**Soumitra**
 
-
+- GitHub: [@soumitra69](https://github.com/soumitra69)
+- Project Link: [https://github.com/soumitra69/PrimalTraining](https://github.com/soumitra69/PrimalTraining)
 
 ## 🙏 Acknowledgments
 
-- Inspiration from modern fitness applications
+- Design inspiration from modern fitness brands
 - React community for excellent documentation
-- Netlify for seamless deployment experience
+- All contributors and supporters of this project
+
+## 📞 Support
+
+If you have any questions or need help with the project, please open an issue in the GitHub repository.
 
 ---
 
-Made with ❤️ by Soumitra Samanta.
+⭐ Star this repo if you find it helpful!
+
+**Made with 💪 and React**
