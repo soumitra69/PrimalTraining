@@ -5,6 +5,7 @@ import heroimage2 from "../assets/HeroCommunity.jpg";
 import heroimage3 from "../assets/HeroCard.jpg";
 import SmoothImage from "./SmoothImage";
 import Reveal from "./Reveal";
+import FitHeading from "./FitHeading";
 
 const Hero = () => {
   return (
@@ -14,14 +15,14 @@ const Hero = () => {
     >
       {/* MAIN HEADING */}
       <Reveal immediate variant="fade-up">
-        <h1 className="w-full px-4 py-3 text-[7.5vw] font-black tracking-[-0.05em] leading-none whitespace-nowrap select-none">
+        <FitHeading as="h1" initialVw={8.9} containerClassName="w-full px-3 md:px-4 py-2">
           <span className="text-black transition-colors duration-300">
             TRAIN HARD.
           </span>{" "}
           <span className="text-[#7B85FF] transition-colors duration-300 hover:text-[#636efa]">
             LIVE BETTER
           </span>
-        </h1>
+        </FitHeading>
       </Reveal>
 
       {/* IMAGE + CONTENT */}
@@ -116,12 +117,12 @@ const Hero = () => {
       {/* COMMUNITY SECTION */}
       <div className="w-full pt-8">
         <Reveal variant="fade-up">
-          <h2 className="w-full px-4 text-center text-[8.8vw] font-black tracking-[-0.05em] leading-none whitespace-nowrap">
+          <FitHeading as="h2" initialVw={10.8} containerClassName="w-full px-3 md:px-4">
             JOIN THE{" "}
             <span className="text-[#7B85FF] transition-colors duration-300 hover:text-[#636efa]">
               COMMUNITY
             </span>
-          </h2>
+          </FitHeading>
         </Reveal>
 
         <div className="flex flex-col lg:flex-row border-t border-b border-black mt-8">

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Reveal from "./Reveal";
+import FitHeading from "./FitHeading";
 
 const sessions = [
   {
@@ -31,9 +32,9 @@ const Spot = () => {
       style={{ fontFamily: "Anek Tamil, sans-serif" }}
     >
       <Reveal immediate variant="fade-up">
-        <h1 className="mb-2 w-full px-4 py-3 text-[9.2vw] font-black tracking-[-0.05em] leading-none uppercase whitespace-nowrap">
+        <FitHeading as="h1" initialVw={13.5} containerClassName="mb-2 w-full px-3 md:px-4 py-2" className="uppercase">
           BOOK A <span className="text-[#7B85FF]">SESSION</span>
-        </h1>
+        </FitHeading>
       </Reveal>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-[#E9ECFF] border-b border-t border-black">
