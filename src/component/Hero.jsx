@@ -14,11 +14,11 @@ const Hero = () => {
     >
       {/* MAIN HEADING */}
       <Reveal immediate variant="fade-up">
-        <h1 className="w-full px-4 py-2 text-[29px] md:text-[72px] lg:text-[100px] xl:text-[150px] font-black tracking-[-0.05em] leading-none select-none">
-          <span className="text-black inline-block transition-transform duration-300 hover:translate-x-1">
+        <h1 className="w-full px-4 py-3 text-[7.5vw] font-black tracking-[-0.05em] leading-none whitespace-nowrap select-none">
+          <span className="text-black transition-colors duration-300">
             TRAIN HARD.
           </span>{" "}
-          <span className="text-[#7B85FF] inline-block transition-all duration-300 hover:text-[#636efa] hover:scale-[1.02] origin-left">
+          <span className="text-[#7B85FF] transition-colors duration-300 hover:text-[#636efa]">
             LIVE BETTER
           </span>
         </h1>
@@ -116,9 +116,9 @@ const Hero = () => {
       {/* COMMUNITY SECTION */}
       <div className="w-full pt-8">
         <Reveal variant="fade-up">
-          <h2 className="w-full px-4 text-center text-[clamp(34px,8vw,175px)] font-black tracking-[-0.05em] leading-none">
+          <h2 className="w-full px-4 text-center text-[8.8vw] font-black tracking-[-0.05em] leading-none whitespace-nowrap">
             JOIN THE{" "}
-            <span className="text-[#7B85FF] inline-block transition-transform duration-300 hover:scale-[1.02]">
+            <span className="text-[#7B85FF] transition-colors duration-300 hover:text-[#636efa]">
               COMMUNITY
             </span>
           </h2>

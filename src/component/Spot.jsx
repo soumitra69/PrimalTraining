@@ -31,7 +31,7 @@ const Spot = () => {
       style={{ fontFamily: "Anek Tamil, sans-serif" }}
     >
       <Reveal immediate variant="fade-up">
-        <h1 className="mb-2 w-full px-4 py-2 text-[29px] md:text-[72px] lg:text-[100px] xl:text-[150px] font-black tracking-[-0.05em] leading-none uppercase">
+        <h1 className="mb-2 w-full px-4 py-3 text-[9.2vw] font-black tracking-[-0.05em] leading-none uppercase whitespace-nowrap">
           BOOK A <span className="text-[#7B85FF]">SESSION</span>
         </h1>
       </Reveal>

@@ -14,7 +14,7 @@ const About = () => {
       style={{ fontFamily: "Anek Tamil, sans-serif" }}
     >
       <Reveal immediate variant="fade-up">
-        <h1 className="mb-2 w-full px-4 py-2 text-[29px] md:text-[72px] lg:text-[100px] xl:text-[150px] font-black tracking-[-0.05em] leading-none uppercase">
+        <h1 className="mb-2 w-full px-4 py-3 text-[9.5vw] font-black tracking-[-0.05em] leading-none uppercase whitespace-nowrap">
           About <span className="text-[#7B85FF]">Us</span>
         </h1>
       </Reveal>
